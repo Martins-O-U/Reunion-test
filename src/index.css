@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,4 +10,130 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container {
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.form{
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%; 
+  padding-top: 3%;
+}
+
+.button-submit{
+ width: 50%;
+ margin-bottom: 5%;
+ border-radius: 5px;
+ padding: 5px 7px;
+ background: LightBlue ;
+}
+
+.button-submit:hover{
+  background: dodgerblue;
+
+}
+
+.button-edit{
+  width: 20%;
+  margin: 0% .5% 0 .5%;
+  border-radius: 5px;
+  padding: 5px 7px;
+  background: LightBlue ;
+ }
+ 
+ .button-edit:hover{
+   background: dodgerblue; 
+ }
+
+footer{
+  margin-top: 7%;
+}
+
+.footer-link{
+  margin-right: 5%;
+}
+
+ul{
+  margin-left: 3%;
+}
+
+#footerHome{
+  margin-right: 10%;
+  color: black;
+}
+
+.ulContent{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.icons
+{
+  width: 50px;
+  height: 50px;
+  padding: 2.5px 2px;
+  border: 2px solid;
+  border-radius: 25%;
+  margin: 0 2px 0 2px;
+  font-size: 18px;
+}
+
+.case-card {
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem auto;
+}
+
+.individualContainer{
+  margin: 10% 0;
+}
+.family-Div{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed gray;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.avatarDiv{
+  margin: 3% 10% 2% 0;
+}
+
+.CaseDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.home{
+  color: black;
+}
+
+.intro{
+  text-shadow: 1px 1px 1px lightblue, 
+  3px 3px 5px darkgray;
+  text-align: center;
+}
+
+.form-container{
+  margin-top: 2%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%; 
+  padding: 30px 20px 20px 20px;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  0 2px 4px rgba(0, 0, 0, 0.24);
 }
