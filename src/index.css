@@ -13,6 +13,8 @@ code {
 }
 
 .container {
+  max-width: 1100px;
+  width: 95%;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
   0 2px 4px rgba(0, 0, 0, 0.24);
 }
@@ -49,40 +51,6 @@ code {
  .button-edit:hover{
    background: dodgerblue; 
  }
-
-footer{
-  margin-top: 7%;
-}
-
-.footer-link{
-  margin-right: 5%;
-}
-
-ul{
-  margin-left: 3%;
-}
-
-#footerHome{
-  margin-right: 10%;
-  color: black;
-}
-
-.ulContent{
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-}
-
-.icons
-{
-  width: 50px;
-  height: 50px;
-  padding: 2.5px 2px;
-  border: 2px solid;
-  border-radius: 25%;
-  margin: 0 2px 0 2px;
-  font-size: 18px;
-}
 
 .case-card {
   border: 0;
@@ -136,4 +104,64 @@ ul{
   padding: 30px 20px 20px 20px;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
   0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.hero-background {
+  z-index: -1;
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+}
+.hero-background:before {
+      content: "";
+      display: block;
+      /* position: absolute;
+      bottom: 0;
+      left: 0;
+      top: 0;
+      right: 0; */
+      width: 80%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      transition: 0.4s ease-out;
+      z-index: 2;
+}
+
+.icons
+{
+  width: 50px;
+  height: 50px;
+  padding: 2.5px 2px;
+  border: 2px solid;
+  border-radius: 25%;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.ulContent{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer{
+  display: flex;
+  padding: 3px 5px;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  align-items: baseline;
+}
+
+.footer-link{
+  display: flex;
+  justify-content: space-evenly;
+}
+#footerHome{
+  margin: 1px 5px;
+  color: black;
 }
