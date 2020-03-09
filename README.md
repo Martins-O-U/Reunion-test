@@ -1,4 +1,4 @@
-# REUNION
+# REUNITE
 
 Do you know that many homeless people are considered a missing person by their family? Their families are searching for them but have no way to contact or find them. Join Reunite in their mission to help reconnect persons experiencing homelessness with their loved ones. Volunteers create a case for homeless persons they meet on the streets that is looking to get back to their families. People can also use the tool to post their missing family member or friend.
 
