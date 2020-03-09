@@ -21,6 +21,11 @@ HTML, CSS, Materialize, SASS, Semantic UI, Javascript, React, Redux,
 
 ===============================================================================
 
+## FrontEnd
+FrontEnd is hosted on Ziet (https://reunite-chi.now.sh),
+
+===============================================================================
+
 ## BackEnd
 Backend is hosted on Heroku (https://miracle-messages2019.herokuapp.com),
 and its documentation ca be found  at https://documenter.getpostman.com/view/7274937/SVmzuGiZ?version=latest
