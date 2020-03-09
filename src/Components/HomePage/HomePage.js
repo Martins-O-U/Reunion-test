@@ -17,7 +17,8 @@ export default function Home() {
                 </div>
                 <div className="case-par">
                     <p>Would you like to volunteer to help homeless ones reunite with their family? click <Link to="/signup">here</Link></p>
-                    <p>Do you Have a case about a loved one or yourself to report? click <Link to="/volunteer-add-case">here</Link></p>
+                    <p>Do you Have a case about a loved one to report? <Link to="/">contact us </Link></p>
+                    <p>View reported cases <Link to="/reunitecases">here</Link></p>
                 </div>
             </div>
         </div>

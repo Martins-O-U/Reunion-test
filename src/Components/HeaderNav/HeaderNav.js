@@ -17,12 +17,15 @@ const HeaderNav = () => {
 
 export default HeaderNav;
 
-const SignedInLink = () => {
+const SignedInLink = (props) => {
+    const onLogout = () => {
+        localStorage.removeItem("token");
+    }
     return (
         <ul className="right">
             <li><NavLink to='/reunitecases'>Cases</NavLink></li>
             <li><NavLink to='/volunteer-add-case'>Add A Case</NavLink></li>
-            <li><NavLink to='/'>Log Out</NavLink></li>
+            <li><NavLink to='/' onClick={onLogout}>Log Out</NavLink></li>
         </ul>
     )
 }

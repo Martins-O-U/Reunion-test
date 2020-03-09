@@ -11,7 +11,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 .container {
   max-width: 1300px;
   width: 95%;
@@ -40,9 +39,10 @@ code {
 
 .un-par{
   width: 45%;
-  padding: 10px;
+  padding: 10px 20px;
   margin-left: 5%;
   margin-right: 5%;
+  background-color: #F8F8FF;
 }
 .un-par p{
   font-size: 17px;
@@ -84,7 +84,7 @@ code {
   max-width: 1100px;
   margin: auto;
   width: 95%;
-  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  box-shadow: 0 -1px 0 #e0e0e0, 0 7px 10px rgba(0, 0, 0, 0.12),
   0 2px 4px rgba(0, 0, 0, 0.24);
   background-color: #F0F8FF;
  }
@@ -92,7 +92,7 @@ code {
 .case-card {
   border: 0;
   max-width: 850px;
-  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  box-shadow: 0 -1px 0 #e0e0e0, 0 7px 10px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
   padding: 1rem;
   cursor: pointer;
@@ -138,7 +138,7 @@ code {
   max-width: 800px;
   margin: auto;
   width: 95%;
-  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  box-shadow: 0 -1px 0 #e0e0e0, 0 7px 10px rgba(0, 0, 0, 0.12),
   0 2px 4px rgba(0, 0, 0, 0.24);
 }
 
@@ -150,7 +150,7 @@ code {
   padding-left: 30px;
   padding-bottom: 5px;
   text-align: center;
-  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  box-shadow: 0 -1px 0 #e0e0e0, 0 7px 10px rgba(0, 0, 0, 0.12),
   0 2px 4px rgba(0, 0, 0, 0.24);
 }
 .submit-case-button{
