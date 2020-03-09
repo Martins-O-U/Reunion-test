@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const FooterNav = () => {
     return (
         <div>
-            <footer className=" lighten-4">
+            <footer>
                 <div className='footer-link'>
                     <p><Link to='/' id='footerHome'>Home</Link></p>
                     <p><Link to='/' id='footerHome'>Contact</Link></p>
