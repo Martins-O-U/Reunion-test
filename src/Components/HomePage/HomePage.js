@@ -8,15 +8,15 @@ export default function Home() {
             <div className="home-background">
                 <img src={homeless} alt="Homeless Person" />
             </div>
-            <h2 className="home-wel">Welcome to Reunion</h2>
+            <h2 className="home-wel">Welcome to Reunite</h2>
             <div className="paragraphs">
-                <div className="un-par">
+                <div className="un-par" id="case">
                     <p>According to the United Nations, in 2005 some 100 million persons were homeless worldwide.
                     Today, with unceasing wars and conflicts within the african sub regions that figure would have risen even more.
                 </p>
                 </div>
-                <div className="case-par">
-                    <p>Would you like to volunteer to help homeless ones reunite with their family? click <Link to="/signup">here</Link></p>
+                <div className="case-par" id="case">
+                    <p>Would you like to help homeless ones reunite with their family? <Link to="/signup">volunteer here</Link></p>
                     <p>Do you Have a case about a loved one to report? <Link to="/">contact us </Link></p>
                     <p>View reported cases <Link to="/reunitecases">here</Link></p>
                 </div>

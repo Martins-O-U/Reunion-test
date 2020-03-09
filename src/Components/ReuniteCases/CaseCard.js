@@ -25,10 +25,9 @@ function CaseCard(props) {
             <div className='CaseDiv'>
                 <div>
                     <Link to={`/individualcase/${data.id}`} key={data.id} className='home'>
-                        <h4><i>{data.homie_name}</i></h4>
-                        <h6>Current State: <i>{data.current_state}</i></h6>
-                        <h6>Current City: <i>{data.current_city}</i></h6>
-                        <h6>Last Location: <i>{data.last_location}</i></h6>
+                        <h5><i>{data.homie_name}</i></h5>
+                        <p><i><strong>Current City, State: </strong>{data.current_city}, {data.current_state}</i></p>
+                        <p><i><strong>Last Known Location: </strong>{data.last_location}</i></p>
                     </Link>
                 </div>
                 <div className='avatarDiv'>
@@ -39,7 +38,7 @@ function CaseCard(props) {
             </div>
             <div className='btn-edit'>
                 <button className='button-edit' onClick={goToEdit}>Edit Case</button>
-                <button className='button-edit' onClick={goToAddFamData}>Add Family Data</button>
+                <button className='button-edit' onClick={goToAddFamData}>Add Family</button>
             </div>
 
         </div>
