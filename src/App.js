@@ -6,12 +6,13 @@ import HeaderNav from './Components/HeaderNav/HeaderNav';
 import VolunteerLogin from './Components/VolunteerLogin/VolunteerLogin';
 import VolunteerSignUp from './Components/VolunteerSignUp/VolunteerSignup';
 import VolunteerAddCase from './Components/VolunteerAddCase/VolunteerAddCase'
-import HomeScreenCases from './Components/HomeScreenCases/HomeScreenCases'
+import ReuniteCases from './Components/ReuniteCases/ReuniteCases'
 import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute';
 import FooterNav from './Components/FooterNav/FooterNav';
 import VolunteerEditandDelete from './Components/VoluneteerEditandDelete/VolunteerEditandDelete'
 import IndividualCase from './Components/IndividualCase/IndividualCase';
 import FamilyAddData from './Components/FamilyAddData/FamilyAddData';
+import Home from './Components/HomePage/HomePage';
 
 function App() {
   const [caseData, setCaseData] = useState([])
@@ -28,7 +29,8 @@ function App() {
     <div className="App">
       <HeaderNav />
       <Switch>
-        <Route exact path='/' component={HomeScreenCases} />
+        <Route exact path='/' component={Home} />
+        <Route path='/reunitecases' component={ReuniteCases} />
         <Route path="/individualcase/:id" component={IndividualCase} />
         <Route path='/login' component={VolunteerLogin} />
         <Route path='/signup' component={VolunteerSignUp} />

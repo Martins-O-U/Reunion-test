@@ -11,10 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 .container {
+  max-width: 1300px;
+  width: 95%;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
   0 2px 4px rgba(0, 0, 0, 0.24);
+}
+#home-home{
+  padding-bottom: 30px;
+}
+.paragraphs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-wel{
+  text-align: center;
+}
+
+.case-par{
+  width: 40%;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: #D3D3D3 0.2px solid;
+}
+
+.un-par{
+  width: 45%;
+  padding: 10px 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #F8F8FF;
+}
+.un-par p{
+  font-size: 17px;
 }
 
 .form{
@@ -30,7 +61,7 @@ code {
  margin-bottom: 5%;
  border-radius: 5px;
  padding: 5px 7px;
- background: LightBlue ;
+ background: #B0E0E6;
 }
 
 .button-submit:hover{
@@ -49,49 +80,25 @@ code {
  .button-edit:hover{
    background: dodgerblue; 
  }
-
-footer{
-  margin-top: 7%;
-}
-
-.footer-link{
-  margin-right: 5%;
-}
-
-ul{
-  margin-left: 3%;
-}
-
-#footerHome{
-  margin-right: 10%;
-  color: black;
-}
-
-.ulContent{
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-}
-
-.icons
-{
-  width: 50px;
-  height: 50px;
-  padding: 2.5px 2px;
-  border: 2px solid;
-  border-radius: 25%;
-  margin: 0 2px 0 2px;
-  font-size: 18px;
-}
+ .unite-container{
+  max-width: 1100px;
+  margin: auto;
+  width: 95%;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 7px 10px rgba(0, 0, 0, 0.12),
+  0 2px 4px rgba(0, 0, 0, 0.24);
+  background-color: #F0F8FF;
+ }
 
 .case-card {
   border: 0;
-  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  max-width: 850px;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 7px 10px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
   padding: 1rem;
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  background-color: #FFFFF0;
 }
 
 .individualContainer{
@@ -127,13 +134,80 @@ ul{
   3px 3px 5px darkgray;
   text-align: center;
 }
+.sign-container{
+  max-width: 800px;
+  margin: auto;
+  width: 95%;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 7px 10px rgba(0, 0, 0, 0.12),
+  0 2px 4px rgba(0, 0, 0, 0.24);
+}
 
 .form-container{
-  margin-top: 2%;
-  text-align: center;
+  margin-top: 1.5%;
   margin-left: 15%;
   margin-right: 15%; 
-  padding: 30px 20px 20px 20px;
-  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  text-align: center;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 7px 10px rgba(0, 0, 0, 0.12),
   0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.submit-case-button{
+  margin-top: 15px;
+}
+#edit{
+  padding-bottom: 20px;
+}
+.home-background {
+  height: 250px;
+}
+
+.home-background img {
+  width: 100%;
+  height: 100%;
+}
+.familyDate-Phone-caseID{
+  display: flex;
+  justify-content: space-between;
+}
+#familyData{
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.icons{
+  width: 50px;
+  height: 50px;
+  padding: 2.5px 2px;
+  border: 2px solid;
+  border-radius: 25%;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.ulContent{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer{
+  display: flex;
+  padding: 3px 5px;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  align-items: baseline;
+  background-color: #B0E0E6;
+}
+
+.footer-link{
+  display: flex;
+  justify-content: space-evenly;
+}
+#footerHome{
+  margin: 1px 5px;
+  color: black;
 }

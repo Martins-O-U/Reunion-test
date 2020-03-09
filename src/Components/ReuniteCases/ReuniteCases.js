@@ -13,10 +13,10 @@ const HomeScreenCases = props => {
                 setData(res.data);
             });
     }, []);
-    
+
 
     return (
-        <div className="container">
+        <div className="unite-container">
             <h1 className='intro'>Reunite Cases</h1>
             {data.map(person => (
                 <CaseCard data={person} key={person.id} />
